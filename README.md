@@ -15,12 +15,22 @@ A user can set a goal position, and the robot will autonomously navigate to it w
 - `nav_msgs`, `geometry_msgs`, `sensor_msgs`, `tf2_ros`
 - A robot setup with odometry and sensor data (e.g., LiDAR)
 
+## ▶️ Usage
 
-## Build
-cd ~/ros2_ws
-colcon build
-source install/setup.bash
+### Start mapping
+```bash
+ros2 launch mapping mapping.launch.py  
+```
 
+### Start path_planning
+```bash
+ros2 run path_planning path_planning.launch.py
+```
+
+### Start path_following
+```bash
+ros2 launch path_following path_following.launch.py 
+```
 
 ## 🎥 Demo
 
