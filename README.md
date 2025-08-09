@@ -39,7 +39,7 @@ ros2 launch mapping mapping.launch.py
 
 ### Start path_planning
 ```bash
-ros2 run path_planning path_planning.launch.py
+ros2 launch path_planning path_planning.launch.py
 ```
 
 ### Start path_following
