@@ -20,3 +20,8 @@ A user can set a goal position, and the robot will autonomously navigate to it w
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
+
+
+## 🎥 Demo
+
+![video](https://github.com/user-attachments/assets/15e12ba5-9a2d-4308-a00e-01fca92da954)
